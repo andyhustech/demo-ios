@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CustomHeaderNewsCell" customModule="ATPTennisApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Nq-oC-9F8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <color key="backgroundColor" red="0.77686298076923077" green="0.77686298076923077" blue="0.77686298076923077" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                        <state key="normal" title="Vietnamese">
+                            <color key="titleColor" red="0.074509803920000006" green="0.61960784310000006" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="actionLanguage:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="vs9-Y6-UB4"/>
+                        </connections>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WAG-da-9Wz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="8"/>
+                        <color key="backgroundColor" red="0.074509803920000006" green="0.61960784310000006" blue="0.93333333330000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="CxO-IE-BQc"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="riE-rl-f8Y">
+                        <rect key="frame" x="0.0" y="36" width="320" height="8"/>
+                        <color key="backgroundColor" red="0.074509803921568626" green="0.61960784313725492" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="dJy-1j-OYQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="riE-rl-f8Y" firstAttribute="trailing" secondItem="0Nq-oC-9F8" secondAttribute="trailing" id="5zV-bs-W6M"/>
+                    <constraint firstItem="0Nq-oC-9F8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9b4-qN-B7I"/>
+                    <constraint firstAttribute="trailing" secondItem="0Nq-oC-9F8" secondAttribute="trailing" id="C5s-ZJ-pi5"/>
+                    <constraint firstItem="0Nq-oC-9F8" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="JwK-5M-S5e"/>
+                    <constraint firstItem="0Nq-oC-9F8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="M9h-r5-gqM"/>
+                    <constraint firstItem="riE-rl-f8Y" firstAttribute="leading" secondItem="WAG-da-9Wz" secondAttribute="leading" id="S8m-Ge-yc0"/>
+                    <constraint firstItem="riE-rl-f8Y" firstAttribute="bottom" secondItem="0Nq-oC-9F8" secondAttribute="bottom" id="bPA-6M-0Ck"/>
+                    <constraint firstItem="WAG-da-9Wz" firstAttribute="top" secondItem="0Nq-oC-9F8" secondAttribute="top" id="de6-SO-bzE"/>
+                    <constraint firstItem="WAG-da-9Wz" firstAttribute="trailing" secondItem="0Nq-oC-9F8" secondAttribute="trailing" id="lFy-sD-Y77"/>
+                    <constraint firstItem="WAG-da-9Wz" firstAttribute="leading" secondItem="0Nq-oC-9F8" secondAttribute="leading" id="vjr-jB-tSC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnLanguage" destination="0Nq-oC-9F8" id="IV2-KY-EPk"/>
+            </connections>
+            <point key="canvasLocation" x="30" y="107"/>
+        </tableViewCell>
+    </objects>
+</document>

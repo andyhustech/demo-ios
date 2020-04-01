@@ -1,0 +1,1408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01168CC71E802681007B5A91 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01168CC51E802681007B5A91 /* VideoVC.swift */; };
+		01168CC81E802681007B5A91 /* VideoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01168CC61E802681007B5A91 /* VideoVC.xib */; };
+		01168CCC1E802697007B5A91 /* PhotoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01168CCA1E802697007B5A91 /* PhotoVC.swift */; };
+		01168CCD1E802697007B5A91 /* PhotoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01168CCB1E802697007B5A91 /* PhotoVC.xib */; };
+		01168CD11E8026B8007B5A91 /* RankingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01168CCF1E8026B8007B5A91 /* RankingVC.swift */; };
+		01168CD21E8026B8007B5A91 /* RankingVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01168CD01E8026B8007B5A91 /* RankingVC.xib */; };
+		01168CD61E8026D3007B5A91 /* ShareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01168CD41E8026D3007B5A91 /* ShareVC.swift */; };
+		01168CD71E8026D3007B5A91 /* ShareVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01168CD51E8026D3007B5A91 /* ShareVC.xib */; };
+		01168CDB1E8026E6007B5A91 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01168CD91E8026E6007B5A91 /* AboutVC.swift */; };
+		01168CDC1E8026E6007B5A91 /* AboutVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01168CDA1E8026E6007B5A91 /* AboutVC.xib */; };
+		01168CE01E802746007B5A91 /* CustomMoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01168CDE1E802746007B5A91 /* CustomMoreCell.swift */; };
+		01168CE11E802746007B5A91 /* CustomMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01168CDF1E802746007B5A91 /* CustomMoreCell.xib */; };
+		0118E3DB1EC746F100DD4DD6 /* LiveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0118E3D91EC746F100DD4DD6 /* LiveVC.swift */; };
+		0118E3DC1EC746F100DD4DD6 /* LiveVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0118E3DA1EC746F100DD4DD6 /* LiveVC.xib */; };
+		012C74B81EBF580100581B4F /* BackhandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C74B61EBF580100581B4F /* BackhandVC.swift */; };
+		012C74B91EBF580100581B4F /* BackhandVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 012C74B71EBF580100581B4F /* BackhandVC.xib */; };
+		012C74C01EBF582900581B4F /* ServeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C74BE1EBF582900581B4F /* ServeVC.swift */; };
+		012C74C11EBF582900581B4F /* ServeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 012C74BF1EBF582900581B4F /* ServeVC.xib */; };
+		012C74C41EBF586C00581B4F /* SliceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C74C21EBF586C00581B4F /* SliceVC.swift */; };
+		012C74C51EBF586C00581B4F /* SliceVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 012C74C31EBF586C00581B4F /* SliceVC.xib */; };
+		012C74C81EBF587F00581B4F /* ReturnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C74C61EBF587F00581B4F /* ReturnVC.swift */; };
+		012C74C91EBF587F00581B4F /* ReturnVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 012C74C71EBF587F00581B4F /* ReturnVC.xib */; };
+		012C74D11EBF655800581B4F /* BackhandDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012C74CF1EBF655800581B4F /* BackhandDetailVC.swift */; };
+		012C74D21EBF655800581B4F /* BackhandDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 012C74D01EBF655800581B4F /* BackhandDetailVC.xib */; };
+		014301611ECB03CE005ED684 /* BackhandSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143015F1ECB03CE005ED684 /* BackhandSearchVC.swift */; };
+		014301621ECB03CE005ED684 /* BackhandSearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014301601ECB03CE005ED684 /* BackhandSearchVC.xib */; };
+		014301651ECB0A1D005ED684 /* ForehandSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014301631ECB0A1D005ED684 /* ForehandSearchVC.swift */; };
+		014301661ECB0A1D005ED684 /* ForehandSearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014301641ECB0A1D005ED684 /* ForehandSearchVC.xib */; };
+		014301691ECB0A37005ED684 /* ServeSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014301671ECB0A37005ED684 /* ServeSearchVC.swift */; };
+		0143016A1ECB0A37005ED684 /* ServeSearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014301681ECB0A37005ED684 /* ServeSearchVC.xib */; };
+		0143016D1ECB0A58005ED684 /* SliceSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143016B1ECB0A58005ED684 /* SliceSearchVC.swift */; };
+		0143016E1ECB0A58005ED684 /* SliceSearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0143016C1ECB0A58005ED684 /* SliceSearchVC.xib */; };
+		014301711ECB0A6F005ED684 /* ReturnSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143016F1ECB0A6F005ED684 /* ReturnSearchVC.swift */; };
+		014301721ECB0A6F005ED684 /* ReturnSearchVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014301701ECB0A6F005ED684 /* ReturnSearchVC.xib */; };
+		014301751ECB30A0005ED684 /* PlayerDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014301731ECB30A0005ED684 /* PlayerDetailVC.swift */; };
+		014301761ECB30A0005ED684 /* PlayerDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014301741ECB30A0005ED684 /* PlayerDetailVC.xib */; };
+		014301781ECB32F9005ED684 /* PlayersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014301771ECB32F9005ED684 /* PlayersModel.swift */; };
+		0143017A1ECB3307005ED684 /* PlayersModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014301791ECB3307005ED684 /* PlayersModelList.swift */; };
+		0143017F1ECB383B005ED684 /* PlayersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0143017E1ECB383B005ED684 /* PlayersService.swift */; };
+		0148501B1EBF124A00A64DDB /* BackhandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148501A1EBF124A00A64DDB /* BackhandModel.swift */; };
+		0148501D1EBF125D00A64DDB /* BackhandModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148501C1EBF125D00A64DDB /* BackhandModelList.swift */; };
+		014850241EBF19F800A64DDB /* BackhandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014850231EBF19F800A64DDB /* BackhandService.swift */; };
+		014850271EBF1C6B00A64DDB /* CustomTechCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014850251EBF1C6B00A64DDB /* CustomTechCell.swift */; };
+		014850281EBF1C6B00A64DDB /* CustomTechCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 014850261EBF1C6B00A64DDB /* CustomTechCell.xib */; };
+		014850301EBF273500A64DDB /* TechniqueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0148502E1EBF273500A64DDB /* TechniqueVC.swift */; };
+		014850311EBF273500A64DDB /* TechniqueVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0148502F1EBF273500A64DDB /* TechniqueVC.xib */; };
+		016AC63D1E7BE48A009600C4 /* ReadingNewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016AC63B1E7BE48A009600C4 /* ReadingNewsVC.swift */; };
+		016AC63E1E7BE48A009600C4 /* ReadingNewsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016AC63C1E7BE48A009600C4 /* ReadingNewsVC.xib */; };
+		01AC4C211EC45CBD00E80B9D /* ForehandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C1F1EC45CBD00E80B9D /* ForehandVC.swift */; };
+		01AC4C221EC45CBD00E80B9D /* ForehandVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AC4C201EC45CBD00E80B9D /* ForehandVC.xib */; };
+		01AC4C281EC45D0E00E80B9D /* ForehandService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C271EC45D0E00E80B9D /* ForehandService.swift */; };
+		01AC4C2A1EC45D6500E80B9D /* ForehandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C291EC45D6500E80B9D /* ForehandModel.swift */; };
+		01AC4C2C1EC45D7800E80B9D /* ForehandModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C2B1EC45D7800E80B9D /* ForehandModelList.swift */; };
+		01AC4C2E1EC45EE400E80B9D /* ReturnModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C2D1EC45EE400E80B9D /* ReturnModel.swift */; };
+		01AC4C301EC45EFE00E80B9D /* ReturnModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C2F1EC45EFE00E80B9D /* ReturnModelList.swift */; };
+		01AC4C321EC45F0F00E80B9D /* SliceModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C311EC45F0F00E80B9D /* SliceModelList.swift */; };
+		01AC4C341EC45F2D00E80B9D /* SliceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C331EC45F2D00E80B9D /* SliceModel.swift */; };
+		01AC4C361EC45F5C00E80B9D /* ServeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C351EC45F5C00E80B9D /* ServeModel.swift */; };
+		01AC4C381EC45F9500E80B9D /* ServeModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C371EC45F9500E80B9D /* ServeModelList.swift */; };
+		01AC4C3E1EC460AB00E80B9D /* ReturnService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C3D1EC460AB00E80B9D /* ReturnService.swift */; };
+		01AC4C401EC460B700E80B9D /* ServeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C3F1EC460B700E80B9D /* ServeService.swift */; };
+		01AC4C421EC460CA00E80B9D /* SliceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C411EC460CA00E80B9D /* SliceService.swift */; };
+		01AC4C451EC4634400E80B9D /* ServeDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C431EC4634400E80B9D /* ServeDetailVC.swift */; };
+		01AC4C461EC4634400E80B9D /* ServeDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AC4C441EC4634400E80B9D /* ServeDetailVC.xib */; };
+		01AC4C491EC4635700E80B9D /* SliceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C471EC4635700E80B9D /* SliceDetailVC.swift */; };
+		01AC4C4A1EC4635700E80B9D /* SliceDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AC4C481EC4635700E80B9D /* SliceDetailVC.xib */; };
+		01AC4C4D1EC4636800E80B9D /* ReturnDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C4B1EC4636800E80B9D /* ReturnDetailVC.swift */; };
+		01AC4C4E1EC4636800E80B9D /* ReturnDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AC4C4C1EC4636800E80B9D /* ReturnDetailVC.xib */; };
+		01AC4C511EC4669A00E80B9D /* ForehandDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4C4F1EC4669A00E80B9D /* ForehandDetailVC.swift */; };
+		01AC4C521EC4669A00E80B9D /* ForehandDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01AC4C501EC4669A00E80B9D /* ForehandDetailVC.xib */; };
+		01CDF4131E7BEF8000C35453 /* CustomNavibar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CDF4121E7BEF8000C35453 /* CustomNavibar.swift */; };
+		01CDF4151E7BF03F00C35453 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CDF4141E7BF03F00C35453 /* Utils.swift */; };
+		01CDF4181E7BF0F000C35453 /* NewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CDF4161E7BF0F000C35453 /* NewsService.swift */; };
+		01CDF41B1E7BF12E00C35453 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01CDF41A1E7BF12E00C35453 /* BaseService.swift */; };
+		01D837A01E7BB7B30009108E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D8379F1E7BB7B30009108E /* ViewController.swift */; };
+		01D837A31E7BB7B30009108E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D837A11E7BB7B30009108E /* Main.storyboard */; };
+		01D837A61E7BB7B30009108E /* ATPTennisApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01D837A41E7BB7B30009108E /* ATPTennisApp.xcdatamodeld */; };
+		01D837A81E7BB7B30009108E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01D837A71E7BB7B30009108E /* Assets.xcassets */; };
+		01D837AB1E7BB7B30009108E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01D837A91E7BB7B30009108E /* LaunchScreen.storyboard */; };
+		01D837B61E7BB7B30009108E /* ATPTennisAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D837B51E7BB7B30009108E /* ATPTennisAppTests.swift */; };
+		01D837C11E7BB7B30009108E /* ATPTennisAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D837C01E7BB7B30009108E /* ATPTennisAppUITests.swift */; };
+		01D837E31E7BBE940009108E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D837E21E7BBE940009108E /* AppDelegate.swift */; };
+		01DAB50B1E7BE10D0002C5B9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DAB5091E7BE10D0002C5B9 /* MainVC.swift */; };
+		01DAB50C1E7BE10D0002C5B9 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DAB50A1E7BE10D0002C5B9 /* MainVC.xib */; };
+		01DAB5231E7BE16E0002C5B9 /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DAB5211E7BE16E0002C5B9 /* NewsVC.swift */; };
+		01DAB5241E7BE16E0002C5B9 /* NewsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DAB5221E7BE16E0002C5B9 /* NewsVC.xib */; };
+		01DAB5331E7BE2510002C5B9 /* TourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DAB5311E7BE2510002C5B9 /* TourVC.swift */; };
+		01DAB5341E7BE2510002C5B9 /* TourVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DAB5321E7BE2510002C5B9 /* TourVC.xib */; };
+		01DAB5371E7BE2710002C5B9 /* PlayersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DAB5351E7BE2710002C5B9 /* PlayersVC.swift */; };
+		01DAB5381E7BE2710002C5B9 /* PlayersVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DAB5361E7BE2710002C5B9 /* PlayersVC.xib */; };
+		01DAB53B1E7BE28A0002C5B9 /* H2HVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DAB5391E7BE28A0002C5B9 /* H2HVC.swift */; };
+		01DAB53C1E7BE28A0002C5B9 /* H2HVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DAB53A1E7BE28A0002C5B9 /* H2HVC.xib */; };
+		01DAB53F1E7BE2A00002C5B9 /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DAB53D1E7BE2A00002C5B9 /* MoreVC.swift */; };
+		01DAB5401E7BE2A00002C5B9 /* MoreVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01DAB53E1E7BE2A00002C5B9 /* MoreVC.xib */; };
+		01DE6F171E8122E3000A43F3 /* SocialHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DE6F161E8122E3000A43F3 /* SocialHelper.swift */; };
+		01E0C14E1E7C1D1000105111 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0C14D1E7C1D1000105111 /* NewsModel.swift */; };
+		01E0C1541E7C1EE800105111 /* NewsModelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0C1531E7C1EE800105111 /* NewsModelList.swift */; };
+		01E0C1561E7C1F2000105111 /* APIConfigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0C1551E7C1F2000105111 /* APIConfigure.swift */; };
+		01E0C15C1E7C2BF600105111 /* CustomNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0C15A1E7C2BF600105111 /* CustomNewsCell.swift */; };
+		01E0C15D1E7C2BF600105111 /* CustomNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01E0C15B1E7C2BF600105111 /* CustomNewsCell.xib */; };
+		01F1D4121E7FE8C800F82BCE /* CustomHeaderNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F1D4101E7FE8C800F82BCE /* CustomHeaderNewsCell.swift */; };
+		01F1D4131E7FE8C800F82BCE /* CustomHeaderNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01F1D4111E7FE8C800F82BCE /* CustomHeaderNewsCell.xib */; };
+		51430221BC53D9669C08877D /* Pods_ATPTennisAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2408E72201B744A0C7873315 /* Pods_ATPTennisAppTests.framework */; };
+		7A69526D3EF8A14575BABDAB /* Pods_ATPTennisApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13FE958D1194273FF2D06B64 /* Pods_ATPTennisApp.framework */; };
+		93E0DC5422B5BE84F5CE613D /* Pods_ATPTennisAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E09F933A60CFEC6AE58B06 /* Pods_ATPTennisAppUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01D837B21E7BB7B30009108E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D837921E7BB7B20009108E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01D837991E7BB7B30009108E;
+			remoteInfo = ATPTennisApp;
+		};
+		01D837BD1E7BB7B30009108E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01D837921E7BB7B20009108E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01D837991E7BB7B30009108E;
+			remoteInfo = ATPTennisApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01168CC51E802681007B5A91 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		01168CC61E802681007B5A91 /* VideoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoVC.xib; sourceTree = "<group>"; };
+		01168CCA1E802697007B5A91 /* PhotoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoVC.swift; sourceTree = "<group>"; };
+		01168CCB1E802697007B5A91 /* PhotoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoVC.xib; sourceTree = "<group>"; };
+		01168CCF1E8026B8007B5A91 /* RankingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingVC.swift; sourceTree = "<group>"; };
+		01168CD01E8026B8007B5A91 /* RankingVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RankingVC.xib; sourceTree = "<group>"; };
+		01168CD41E8026D3007B5A91 /* ShareVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareVC.swift; sourceTree = "<group>"; };
+		01168CD51E8026D3007B5A91 /* ShareVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareVC.xib; sourceTree = "<group>"; };
+		01168CD91E8026E6007B5A91 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		01168CDA1E8026E6007B5A91 /* AboutVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutVC.xib; sourceTree = "<group>"; };
+		01168CDE1E802746007B5A91 /* CustomMoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMoreCell.swift; sourceTree = "<group>"; };
+		01168CDF1E802746007B5A91 /* CustomMoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomMoreCell.xib; sourceTree = "<group>"; };
+		0118E3D91EC746F100DD4DD6 /* LiveVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveVC.swift; sourceTree = "<group>"; };
+		0118E3DA1EC746F100DD4DD6 /* LiveVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LiveVC.xib; sourceTree = "<group>"; };
+		012C74B61EBF580100581B4F /* BackhandVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackhandVC.swift; sourceTree = "<group>"; };
+		012C74B71EBF580100581B4F /* BackhandVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackhandVC.xib; sourceTree = "<group>"; };
+		012C74BE1EBF582900581B4F /* ServeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServeVC.swift; sourceTree = "<group>"; };
+		012C74BF1EBF582900581B4F /* ServeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServeVC.xib; sourceTree = "<group>"; };
+		012C74C21EBF586C00581B4F /* SliceVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliceVC.swift; sourceTree = "<group>"; };
+		012C74C31EBF586C00581B4F /* SliceVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliceVC.xib; sourceTree = "<group>"; };
+		012C74C61EBF587F00581B4F /* ReturnVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnVC.swift; sourceTree = "<group>"; };
+		012C74C71EBF587F00581B4F /* ReturnVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnVC.xib; sourceTree = "<group>"; };
+		012C74CF1EBF655800581B4F /* BackhandDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackhandDetailVC.swift; sourceTree = "<group>"; };
+		012C74D01EBF655800581B4F /* BackhandDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackhandDetailVC.xib; sourceTree = "<group>"; };
+		0143015F1ECB03CE005ED684 /* BackhandSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackhandSearchVC.swift; sourceTree = "<group>"; };
+		014301601ECB03CE005ED684 /* BackhandSearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackhandSearchVC.xib; sourceTree = "<group>"; };
+		014301631ECB0A1D005ED684 /* ForehandSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForehandSearchVC.swift; sourceTree = "<group>"; };
+		014301641ECB0A1D005ED684 /* ForehandSearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForehandSearchVC.xib; sourceTree = "<group>"; };
+		014301671ECB0A37005ED684 /* ServeSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServeSearchVC.swift; sourceTree = "<group>"; };
+		014301681ECB0A37005ED684 /* ServeSearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServeSearchVC.xib; sourceTree = "<group>"; };
+		0143016B1ECB0A58005ED684 /* SliceSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliceSearchVC.swift; sourceTree = "<group>"; };
+		0143016C1ECB0A58005ED684 /* SliceSearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliceSearchVC.xib; sourceTree = "<group>"; };
+		0143016F1ECB0A6F005ED684 /* ReturnSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnSearchVC.swift; sourceTree = "<group>"; };
+		014301701ECB0A6F005ED684 /* ReturnSearchVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnSearchVC.xib; sourceTree = "<group>"; };
+		014301731ECB30A0005ED684 /* PlayerDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailVC.swift; sourceTree = "<group>"; };
+		014301741ECB30A0005ED684 /* PlayerDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerDetailVC.xib; sourceTree = "<group>"; };
+		014301771ECB32F9005ED684 /* PlayersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersModel.swift; sourceTree = "<group>"; };
+		014301791ECB3307005ED684 /* PlayersModelList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersModelList.swift; sourceTree = "<group>"; };
+		0143017E1ECB383B005ED684 /* PlayersService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersService.swift; sourceTree = "<group>"; };
+		0148501A1EBF124A00A64DDB /* BackhandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackhandModel.swift; sourceTree = "<group>"; };
+		0148501C1EBF125D00A64DDB /* BackhandModelList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackhandModelList.swift; sourceTree = "<group>"; };
+		014850231EBF19F800A64DDB /* BackhandService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackhandService.swift; sourceTree = "<group>"; };
+		014850251EBF1C6B00A64DDB /* CustomTechCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTechCell.swift; sourceTree = "<group>"; };
+		014850261EBF1C6B00A64DDB /* CustomTechCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTechCell.xib; sourceTree = "<group>"; };
+		0148502E1EBF273500A64DDB /* TechniqueVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechniqueVC.swift; sourceTree = "<group>"; };
+		0148502F1EBF273500A64DDB /* TechniqueVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TechniqueVC.xib; sourceTree = "<group>"; };
+		016AC63B1E7BE48A009600C4 /* ReadingNewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingNewsVC.swift; sourceTree = "<group>"; };
+		016AC63C1E7BE48A009600C4 /* ReadingNewsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadingNewsVC.xib; sourceTree = "<group>"; };
+		01AC4C1F1EC45CBD00E80B9D /* ForehandVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForehandVC.swift; sourceTree = "<group>"; };
+		01AC4C201EC45CBD00E80B9D /* ForehandVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForehandVC.xib; sourceTree = "<group>"; };
+		01AC4C271EC45D0E00E80B9D /* ForehandService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForehandService.swift; sourceTree = "<group>"; };
+		01AC4C291EC45D6500E80B9D /* ForehandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForehandModel.swift; sourceTree = "<group>"; };
+		01AC4C2B1EC45D7800E80B9D /* ForehandModelList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForehandModelList.swift; sourceTree = "<group>"; };
+		01AC4C2D1EC45EE400E80B9D /* ReturnModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnModel.swift; sourceTree = "<group>"; };
+		01AC4C2F1EC45EFE00E80B9D /* ReturnModelList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnModelList.swift; sourceTree = "<group>"; };
+		01AC4C311EC45F0F00E80B9D /* SliceModelList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliceModelList.swift; sourceTree = "<group>"; };
+		01AC4C331EC45F2D00E80B9D /* SliceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliceModel.swift; sourceTree = "<group>"; };
+		01AC4C351EC45F5C00E80B9D /* ServeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServeModel.swift; sourceTree = "<group>"; };
+		01AC4C371EC45F9500E80B9D /* ServeModelList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServeModelList.swift; sourceTree = "<group>"; };
+		01AC4C3D1EC460AB00E80B9D /* ReturnService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnService.swift; sourceTree = "<group>"; };
+		01AC4C3F1EC460B700E80B9D /* ServeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServeService.swift; sourceTree = "<group>"; };
+		01AC4C411EC460CA00E80B9D /* SliceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliceService.swift; sourceTree = "<group>"; };
+		01AC4C431EC4634400E80B9D /* ServeDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServeDetailVC.swift; sourceTree = "<group>"; };
+		01AC4C441EC4634400E80B9D /* ServeDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ServeDetailVC.xib; sourceTree = "<group>"; };
+		01AC4C471EC4635700E80B9D /* SliceDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliceDetailVC.swift; sourceTree = "<group>"; };
+		01AC4C481EC4635700E80B9D /* SliceDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SliceDetailVC.xib; sourceTree = "<group>"; };
+		01AC4C4B1EC4636800E80B9D /* ReturnDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReturnDetailVC.swift; sourceTree = "<group>"; };
+		01AC4C4C1EC4636800E80B9D /* ReturnDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnDetailVC.xib; sourceTree = "<group>"; };
+		01AC4C4F1EC4669A00E80B9D /* ForehandDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForehandDetailVC.swift; sourceTree = "<group>"; };
+		01AC4C501EC4669A00E80B9D /* ForehandDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForehandDetailVC.xib; sourceTree = "<group>"; };
+		01CDF4121E7BEF8000C35453 /* CustomNavibar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavibar.swift; sourceTree = "<group>"; };
+		01CDF4141E7BF03F00C35453 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		01CDF4161E7BF0F000C35453 /* NewsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsService.swift; sourceTree = "<group>"; };
+		01CDF41A1E7BF12E00C35453 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
+		01D8379A1E7BB7B30009108E /* ATPTennisApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATPTennisApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D8379F1E7BB7B30009108E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		01D837A21E7BB7B30009108E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01D837A51E7BB7B30009108E /* ATPTennisApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ATPTennisApp.xcdatamodel; sourceTree = "<group>"; };
+		01D837A71E7BB7B30009108E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01D837AA1E7BB7B30009108E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01D837AC1E7BB7B30009108E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D837B11E7BB7B30009108E /* ATPTennisAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATPTennisAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D837B51E7BB7B30009108E /* ATPTennisAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATPTennisAppTests.swift; sourceTree = "<group>"; };
+		01D837B71E7BB7B30009108E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D837BC1E7BB7B30009108E /* ATPTennisAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATPTennisAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01D837C01E7BB7B30009108E /* ATPTennisAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATPTennisAppUITests.swift; sourceTree = "<group>"; };
+		01D837C21E7BB7B30009108E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01D837E21E7BBE940009108E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01DAB5091E7BE10D0002C5B9 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		01DAB50A1E7BE10D0002C5B9 /* MainVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
+		01DAB5211E7BE16E0002C5B9 /* NewsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
+		01DAB5221E7BE16E0002C5B9 /* NewsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsVC.xib; sourceTree = "<group>"; };
+		01DAB5311E7BE2510002C5B9 /* TourVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourVC.swift; sourceTree = "<group>"; };
+		01DAB5321E7BE2510002C5B9 /* TourVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TourVC.xib; sourceTree = "<group>"; };
+		01DAB5351E7BE2710002C5B9 /* PlayersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayersVC.swift; sourceTree = "<group>"; };
+		01DAB5361E7BE2710002C5B9 /* PlayersVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayersVC.xib; sourceTree = "<group>"; };
+		01DAB5391E7BE28A0002C5B9 /* H2HVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H2HVC.swift; sourceTree = "<group>"; };
+		01DAB53A1E7BE28A0002C5B9 /* H2HVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = H2HVC.xib; sourceTree = "<group>"; };
+		01DAB53D1E7BE2A00002C5B9 /* MoreVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		01DAB53E1E7BE2A00002C5B9 /* MoreVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreVC.xib; sourceTree = "<group>"; };
+		01DE6F161E8122E3000A43F3 /* SocialHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialHelper.swift; sourceTree = "<group>"; };
+		01E0C14D1E7C1D1000105111 /* NewsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		01E0C1531E7C1EE800105111 /* NewsModelList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsModelList.swift; sourceTree = "<group>"; };
+		01E0C1551E7C1F2000105111 /* APIConfigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfigure.swift; sourceTree = "<group>"; };
+		01E0C15A1E7C2BF600105111 /* CustomNewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNewsCell.swift; sourceTree = "<group>"; };
+		01E0C15B1E7C2BF600105111 /* CustomNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomNewsCell.xib; sourceTree = "<group>"; };
+		01F1D4101E7FE8C800F82BCE /* CustomHeaderNewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomHeaderNewsCell.swift; sourceTree = "<group>"; };
+		01F1D4111E7FE8C800F82BCE /* CustomHeaderNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomHeaderNewsCell.xib; sourceTree = "<group>"; };
+		0328729FB7C2C1AD33CA25E1 /* Pods-ATPTennisApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATPTennisApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATPTennisApp/Pods-ATPTennisApp.release.xcconfig"; sourceTree = "<group>"; };
+		13FE958D1194273FF2D06B64 /* Pods_ATPTennisApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATPTennisApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18278B245A6EBD0FE677ABE6 /* Pods-ATPTennisAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATPTennisAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATPTennisAppTests/Pods-ATPTennisAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2408E72201B744A0C7873315 /* Pods_ATPTennisAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATPTennisAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FDEAA35CB2071A1651619E8 /* Pods-ATPTennisAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATPTennisAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATPTennisAppUITests/Pods-ATPTennisAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		42E09F933A60CFEC6AE58B06 /* Pods_ATPTennisAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ATPTennisAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B206F8351DF88EDF7BDEAE /* Pods-ATPTennisApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATPTennisApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATPTennisApp/Pods-ATPTennisApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CCD9D29D7DAE7A0058B0F1E8 /* Pods-ATPTennisAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATPTennisAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ATPTennisAppUITests/Pods-ATPTennisAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E89F895395171FD65DE4FC2A /* Pods-ATPTennisAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ATPTennisAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ATPTennisAppTests/Pods-ATPTennisAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01D837971E7BB7B30009108E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A69526D3EF8A14575BABDAB /* Pods_ATPTennisApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D837AE1E7BB7B30009108E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51430221BC53D9669C08877D /* Pods_ATPTennisAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D837B91E7BB7B30009108E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E0DC5422B5BE84F5CE613D /* Pods_ATPTennisAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01168CC41E802644007B5A91 /* Technique */ = {
+			isa = PBXGroup;
+			children = (
+				0148502E1EBF273500A64DDB /* TechniqueVC.swift */,
+				0148502F1EBF273500A64DDB /* TechniqueVC.xib */,
+				012C74CA1EBF588300581B4F /* Backhand */,
+				012C74CB1EBF588D00581B4F /* Forehand */,
+				012C74CC1EBF589600581B4F /* Serve */,
+				012C74CD1EBF58A000581B4F /* Slice */,
+				012C74CE1EBF58A700581B4F /* Return */,
+			);
+			name = Technique;
+			sourceTree = "<group>";
+		};
+		01168CC91E802684007B5A91 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				01168CC51E802681007B5A91 /* VideoVC.swift */,
+				01168CC61E802681007B5A91 /* VideoVC.xib */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		01168CCE1E80269B007B5A91 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				01168CCA1E802697007B5A91 /* PhotoVC.swift */,
+				01168CCB1E802697007B5A91 /* PhotoVC.xib */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+		01168CD31E8026BB007B5A91 /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				01168CCF1E8026B8007B5A91 /* RankingVC.swift */,
+				01168CD01E8026B8007B5A91 /* RankingVC.xib */,
+			);
+			name = Ranking;
+			sourceTree = "<group>";
+		};
+		01168CD81E8026D6007B5A91 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				01168CD41E8026D3007B5A91 /* ShareVC.swift */,
+				01168CD51E8026D3007B5A91 /* ShareVC.xib */,
+			);
+			name = Share;
+			sourceTree = "<group>";
+		};
+		01168CDD1E8026EC007B5A91 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				01168CD91E8026E6007B5A91 /* AboutVC.swift */,
+				01168CDA1E8026E6007B5A91 /* AboutVC.xib */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		0118E3DD1EC746FE00DD4DD6 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				0118E3D91EC746F100DD4DD6 /* LiveVC.swift */,
+				0118E3DA1EC746F100DD4DD6 /* LiveVC.xib */,
+			);
+			name = Live;
+			sourceTree = "<group>";
+		};
+		01200FDE1E7BE6C0001C1CA4 /* 03.Views */ = {
+			isa = PBXGroup;
+			children = (
+				01E5447E1E8013B7001AD0AF /* News */,
+				01DE6F1A1E81252F000A43F3 /* More */,
+				014850291EBF1C6F00A64DDB /* Tech */,
+			);
+			name = 03.Views;
+			sourceTree = "<group>";
+		};
+		012C74CA1EBF588300581B4F /* Backhand */ = {
+			isa = PBXGroup;
+			children = (
+				012C74B61EBF580100581B4F /* BackhandVC.swift */,
+				012C74B71EBF580100581B4F /* BackhandVC.xib */,
+				012C74CF1EBF655800581B4F /* BackhandDetailVC.swift */,
+				012C74D01EBF655800581B4F /* BackhandDetailVC.xib */,
+				0143015F1ECB03CE005ED684 /* BackhandSearchVC.swift */,
+				014301601ECB03CE005ED684 /* BackhandSearchVC.xib */,
+			);
+			name = Backhand;
+			sourceTree = "<group>";
+		};
+		012C74CB1EBF588D00581B4F /* Forehand */ = {
+			isa = PBXGroup;
+			children = (
+				01AC4C1F1EC45CBD00E80B9D /* ForehandVC.swift */,
+				01AC4C201EC45CBD00E80B9D /* ForehandVC.xib */,
+				01AC4C4F1EC4669A00E80B9D /* ForehandDetailVC.swift */,
+				01AC4C501EC4669A00E80B9D /* ForehandDetailVC.xib */,
+				014301631ECB0A1D005ED684 /* ForehandSearchVC.swift */,
+				014301641ECB0A1D005ED684 /* ForehandSearchVC.xib */,
+			);
+			name = Forehand;
+			sourceTree = "<group>";
+		};
+		012C74CC1EBF589600581B4F /* Serve */ = {
+			isa = PBXGroup;
+			children = (
+				012C74BE1EBF582900581B4F /* ServeVC.swift */,
+				012C74BF1EBF582900581B4F /* ServeVC.xib */,
+				01AC4C431EC4634400E80B9D /* ServeDetailVC.swift */,
+				01AC4C441EC4634400E80B9D /* ServeDetailVC.xib */,
+				014301671ECB0A37005ED684 /* ServeSearchVC.swift */,
+				014301681ECB0A37005ED684 /* ServeSearchVC.xib */,
+			);
+			name = Serve;
+			sourceTree = "<group>";
+		};
+		012C74CD1EBF58A000581B4F /* Slice */ = {
+			isa = PBXGroup;
+			children = (
+				012C74C21EBF586C00581B4F /* SliceVC.swift */,
+				012C74C31EBF586C00581B4F /* SliceVC.xib */,
+				01AC4C471EC4635700E80B9D /* SliceDetailVC.swift */,
+				01AC4C481EC4635700E80B9D /* SliceDetailVC.xib */,
+				0143016B1ECB0A58005ED684 /* SliceSearchVC.swift */,
+				0143016C1ECB0A58005ED684 /* SliceSearchVC.xib */,
+			);
+			name = Slice;
+			sourceTree = "<group>";
+		};
+		012C74CE1EBF58A700581B4F /* Return */ = {
+			isa = PBXGroup;
+			children = (
+				012C74C61EBF587F00581B4F /* ReturnVC.swift */,
+				012C74C71EBF587F00581B4F /* ReturnVC.xib */,
+				01AC4C4B1EC4636800E80B9D /* ReturnDetailVC.swift */,
+				01AC4C4C1EC4636800E80B9D /* ReturnDetailVC.xib */,
+				0143016F1ECB0A6F005ED684 /* ReturnSearchVC.swift */,
+				014301701ECB0A6F005ED684 /* ReturnSearchVC.xib */,
+			);
+			name = Return;
+			sourceTree = "<group>";
+		};
+		0143017B1ECB3314005ED684 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				014301771ECB32F9005ED684 /* PlayersModel.swift */,
+				014301791ECB3307005ED684 /* PlayersModelList.swift */,
+			);
+			name = Players;
+			sourceTree = "<group>";
+		};
+		0148501E1EBF182F00A64DDB /* Backhand */ = {
+			isa = PBXGroup;
+			children = (
+				0148501A1EBF124A00A64DDB /* BackhandModel.swift */,
+				0148501C1EBF125D00A64DDB /* BackhandModelList.swift */,
+			);
+			name = Backhand;
+			sourceTree = "<group>";
+		};
+		014850291EBF1C6F00A64DDB /* Tech */ = {
+			isa = PBXGroup;
+			children = (
+				014850251EBF1C6B00A64DDB /* CustomTechCell.swift */,
+				014850261EBF1C6B00A64DDB /* CustomTechCell.xib */,
+			);
+			name = Tech;
+			sourceTree = "<group>";
+		};
+		016AC6351E7BE440009600C4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				01DAB5091E7BE10D0002C5B9 /* MainVC.swift */,
+				01DAB50A1E7BE10D0002C5B9 /* MainVC.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		016AC6361E7BE44E009600C4 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				01DAB5211E7BE16E0002C5B9 /* NewsVC.swift */,
+				01DAB5221E7BE16E0002C5B9 /* NewsVC.xib */,
+				016AC63B1E7BE48A009600C4 /* ReadingNewsVC.swift */,
+				016AC63C1E7BE48A009600C4 /* ReadingNewsVC.xib */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		016AC6371E7BE457009600C4 /* Tour */ = {
+			isa = PBXGroup;
+			children = (
+				01DAB5311E7BE2510002C5B9 /* TourVC.swift */,
+				01DAB5321E7BE2510002C5B9 /* TourVC.xib */,
+			);
+			name = Tour;
+			sourceTree = "<group>";
+		};
+		016AC6381E7BE45E009600C4 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				01DAB5351E7BE2710002C5B9 /* PlayersVC.swift */,
+				01DAB5361E7BE2710002C5B9 /* PlayersVC.xib */,
+				014301731ECB30A0005ED684 /* PlayerDetailVC.swift */,
+				014301741ECB30A0005ED684 /* PlayerDetailVC.xib */,
+			);
+			name = Players;
+			sourceTree = "<group>";
+		};
+		016AC6391E7BE466009600C4 /* H2H */ = {
+			isa = PBXGroup;
+			children = (
+				01DAB5391E7BE28A0002C5B9 /* H2HVC.swift */,
+				01DAB53A1E7BE28A0002C5B9 /* H2HVC.xib */,
+			);
+			name = H2H;
+			sourceTree = "<group>";
+		};
+		016AC63A1E7BE46C009600C4 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				016AC6371E7BE457009600C4 /* Tour */,
+				016AC6391E7BE466009600C4 /* H2H */,
+				01168CC91E802684007B5A91 /* Video */,
+				01168CCE1E80269B007B5A91 /* Photo */,
+				01168CD31E8026BB007B5A91 /* Ranking */,
+				01168CD81E8026D6007B5A91 /* Share */,
+				01168CDD1E8026EC007B5A91 /* About */,
+				01DAB53D1E7BE2A00002C5B9 /* MoreVC.swift */,
+				01DAB53E1E7BE2A00002C5B9 /* MoreVC.xib */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		01AC4C391EC45F9A00E80B9D /* Forehand */ = {
+			isa = PBXGroup;
+			children = (
+				01AC4C291EC45D6500E80B9D /* ForehandModel.swift */,
+				01AC4C2B1EC45D7800E80B9D /* ForehandModelList.swift */,
+			);
+			name = Forehand;
+			sourceTree = "<group>";
+		};
+		01AC4C3A1EC45FA300E80B9D /* Return */ = {
+			isa = PBXGroup;
+			children = (
+				01AC4C2D1EC45EE400E80B9D /* ReturnModel.swift */,
+				01AC4C2F1EC45EFE00E80B9D /* ReturnModelList.swift */,
+			);
+			name = Return;
+			sourceTree = "<group>";
+		};
+		01AC4C3B1EC45FAF00E80B9D /* Slice */ = {
+			isa = PBXGroup;
+			children = (
+				01AC4C331EC45F2D00E80B9D /* SliceModel.swift */,
+				01AC4C311EC45F0F00E80B9D /* SliceModelList.swift */,
+			);
+			name = Slice;
+			sourceTree = "<group>";
+		};
+		01AC4C3C1EC45FBC00E80B9D /* Serve */ = {
+			isa = PBXGroup;
+			children = (
+				01AC4C351EC45F5C00E80B9D /* ServeModel.swift */,
+				01AC4C371EC45F9500E80B9D /* ServeModelList.swift */,
+			);
+			name = Serve;
+			sourceTree = "<group>";
+		};
+		01D837911E7BB7B20009108E = {
+			isa = PBXGroup;
+			children = (
+				01D8379C1E7BB7B30009108E /* ATPTennisApp */,
+				01D837B41E7BB7B30009108E /* ATPTennisAppTests */,
+				01D837BF1E7BB7B30009108E /* ATPTennisAppUITests */,
+				01D8379B1E7BB7B30009108E /* Products */,
+				CC926B3E866D80CA47814C6E /* Pods */,
+				4C4CB79EA2BB680992120A53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		01D8379B1E7BB7B30009108E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01D8379A1E7BB7B30009108E /* ATPTennisApp.app */,
+				01D837B11E7BB7B30009108E /* ATPTennisAppTests.xctest */,
+				01D837BC1E7BB7B30009108E /* ATPTennisAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01D8379C1E7BB7B30009108E /* ATPTennisApp */ = {
+			isa = PBXGroup;
+			children = (
+				01D8379F1E7BB7B30009108E /* ViewController.swift */,
+				01D837A11E7BB7B30009108E /* Main.storyboard */,
+				01D837A71E7BB7B30009108E /* Assets.xcassets */,
+				01D837A91E7BB7B30009108E /* LaunchScreen.storyboard */,
+				01D837AC1E7BB7B30009108E /* Info.plist */,
+				01D837A41E7BB7B30009108E /* ATPTennisApp.xcdatamodeld */,
+				01E0C1571E7C1F2600105111 /* 00.Apps */,
+				01E0C1521E7C1E6D00105111 /* 01.Models */,
+				01DAB5411E7BE2C10002C5B9 /* 02.Controllers */,
+				01200FDE1E7BE6C0001C1CA4 /* 03.Views */,
+				01E0C14F1E7C1E0500105111 /* 04.Services */,
+				01E0C1501E7C1E4300105111 /* 05.Utils */,
+				01DE6F181E812488000A43F3 /* 06.Social */,
+			);
+			path = ATPTennisApp;
+			sourceTree = "<group>";
+		};
+		01D837B41E7BB7B30009108E /* ATPTennisAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				01D837B51E7BB7B30009108E /* ATPTennisAppTests.swift */,
+				01D837B71E7BB7B30009108E /* Info.plist */,
+			);
+			path = ATPTennisAppTests;
+			sourceTree = "<group>";
+		};
+		01D837BF1E7BB7B30009108E /* ATPTennisAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				01D837C01E7BB7B30009108E /* ATPTennisAppUITests.swift */,
+				01D837C21E7BB7B30009108E /* Info.plist */,
+			);
+			path = ATPTennisAppUITests;
+			sourceTree = "<group>";
+		};
+		01DAB5411E7BE2C10002C5B9 /* 02.Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0118E3DD1EC746FE00DD4DD6 /* Live */,
+				016AC6351E7BE440009600C4 /* Main */,
+				016AC6361E7BE44E009600C4 /* News */,
+				016AC6381E7BE45E009600C4 /* Players */,
+				016AC63A1E7BE46C009600C4 /* More */,
+				01168CC41E802644007B5A91 /* Technique */,
+				01CDF4121E7BEF8000C35453 /* CustomNavibar.swift */,
+			);
+			name = 02.Controllers;
+			sourceTree = "<group>";
+		};
+		01DE6F181E812488000A43F3 /* 06.Social */ = {
+			isa = PBXGroup;
+			children = (
+				01DE6F161E8122E3000A43F3 /* SocialHelper.swift */,
+			);
+			name = 06.Social;
+			sourceTree = "<group>";
+		};
+		01DE6F191E812514000A43F3 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				01E0C14D1E7C1D1000105111 /* NewsModel.swift */,
+				01E0C1531E7C1EE800105111 /* NewsModelList.swift */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		01DE6F1A1E81252F000A43F3 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				01168CDE1E802746007B5A91 /* CustomMoreCell.swift */,
+				01168CDF1E802746007B5A91 /* CustomMoreCell.xib */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		01E0C14F1E7C1E0500105111 /* 04.Services */ = {
+			isa = PBXGroup;
+			children = (
+				01CDF4161E7BF0F000C35453 /* NewsService.swift */,
+				01CDF41A1E7BF12E00C35453 /* BaseService.swift */,
+				014850231EBF19F800A64DDB /* BackhandService.swift */,
+				01AC4C271EC45D0E00E80B9D /* ForehandService.swift */,
+				01AC4C3D1EC460AB00E80B9D /* ReturnService.swift */,
+				01AC4C3F1EC460B700E80B9D /* ServeService.swift */,
+				01AC4C411EC460CA00E80B9D /* SliceService.swift */,
+				0143017E1ECB383B005ED684 /* PlayersService.swift */,
+			);
+			name = 04.Services;
+			sourceTree = "<group>";
+		};
+		01E0C1501E7C1E4300105111 /* 05.Utils */ = {
+			isa = PBXGroup;
+			children = (
+				01CDF4141E7BF03F00C35453 /* Utils.swift */,
+			);
+			name = 05.Utils;
+			sourceTree = "<group>";
+		};
+		01E0C1521E7C1E6D00105111 /* 01.Models */ = {
+			isa = PBXGroup;
+			children = (
+				01DE6F191E812514000A43F3 /* News */,
+				0148501E1EBF182F00A64DDB /* Backhand */,
+				01AC4C391EC45F9A00E80B9D /* Forehand */,
+				01AC4C3A1EC45FA300E80B9D /* Return */,
+				01AC4C3B1EC45FAF00E80B9D /* Slice */,
+				01AC4C3C1EC45FBC00E80B9D /* Serve */,
+				0143017B1ECB3314005ED684 /* Players */,
+			);
+			name = 01.Models;
+			sourceTree = "<group>";
+		};
+		01E0C1571E7C1F2600105111 /* 00.Apps */ = {
+			isa = PBXGroup;
+			children = (
+				01D837E21E7BBE940009108E /* AppDelegate.swift */,
+				01E0C1551E7C1F2000105111 /* APIConfigure.swift */,
+			);
+			name = 00.Apps;
+			sourceTree = "<group>";
+		};
+		01E5447E1E8013B7001AD0AF /* News */ = {
+			isa = PBXGroup;
+			children = (
+				01E0C15A1E7C2BF600105111 /* CustomNewsCell.swift */,
+				01E0C15B1E7C2BF600105111 /* CustomNewsCell.xib */,
+				01F1D4101E7FE8C800F82BCE /* CustomHeaderNewsCell.swift */,
+				01F1D4111E7FE8C800F82BCE /* CustomHeaderNewsCell.xib */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		4C4CB79EA2BB680992120A53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13FE958D1194273FF2D06B64 /* Pods_ATPTennisApp.framework */,
+				2408E72201B744A0C7873315 /* Pods_ATPTennisAppTests.framework */,
+				42E09F933A60CFEC6AE58B06 /* Pods_ATPTennisAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC926B3E866D80CA47814C6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4B206F8351DF88EDF7BDEAE /* Pods-ATPTennisApp.debug.xcconfig */,
+				0328729FB7C2C1AD33CA25E1 /* Pods-ATPTennisApp.release.xcconfig */,
+				18278B245A6EBD0FE677ABE6 /* Pods-ATPTennisAppTests.debug.xcconfig */,
+				E89F895395171FD65DE4FC2A /* Pods-ATPTennisAppTests.release.xcconfig */,
+				CCD9D29D7DAE7A0058B0F1E8 /* Pods-ATPTennisAppUITests.debug.xcconfig */,
+				3FDEAA35CB2071A1651619E8 /* Pods-ATPTennisAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01D837991E7BB7B30009108E /* ATPTennisApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D837C51E7BB7B30009108E /* Build configuration list for PBXNativeTarget "ATPTennisApp" */;
+			buildPhases = (
+				F5A9E7124847DF359FF56A03 /* [CP] Check Pods Manifest.lock */,
+				01D837961E7BB7B30009108E /* Sources */,
+				01D837971E7BB7B30009108E /* Frameworks */,
+				01D837981E7BB7B30009108E /* Resources */,
+				0C2B44C6BA213AD457629143 /* [CP] Embed Pods Frameworks */,
+				8D09AA6EBE473F3132D08134 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ATPTennisApp;
+			productName = ATPTennisApp;
+			productReference = 01D8379A1E7BB7B30009108E /* ATPTennisApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01D837B01E7BB7B30009108E /* ATPTennisAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D837C81E7BB7B30009108E /* Build configuration list for PBXNativeTarget "ATPTennisAppTests" */;
+			buildPhases = (
+				B2E169B213D1F7F30344FB7F /* [CP] Check Pods Manifest.lock */,
+				01D837AD1E7BB7B30009108E /* Sources */,
+				01D837AE1E7BB7B30009108E /* Frameworks */,
+				01D837AF1E7BB7B30009108E /* Resources */,
+				E858A894DA509E10884DE98B /* [CP] Embed Pods Frameworks */,
+				B67C150B4A05903A157F7DD2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01D837B31E7BB7B30009108E /* PBXTargetDependency */,
+			);
+			name = ATPTennisAppTests;
+			productName = ATPTennisAppTests;
+			productReference = 01D837B11E7BB7B30009108E /* ATPTennisAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01D837BB1E7BB7B30009108E /* ATPTennisAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01D837CB1E7BB7B30009108E /* Build configuration list for PBXNativeTarget "ATPTennisAppUITests" */;
+			buildPhases = (
+				8EBCFCE2410A839167ED2D1C /* [CP] Check Pods Manifest.lock */,
+				01D837B81E7BB7B30009108E /* Sources */,
+				01D837B91E7BB7B30009108E /* Frameworks */,
+				01D837BA1E7BB7B30009108E /* Resources */,
+				3846C1AC02AD535758DC1117 /* [CP] Embed Pods Frameworks */,
+				CB0C099062BA353370E9BB64 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01D837BE1E7BB7B30009108E /* PBXTargetDependency */,
+			);
+			name = ATPTennisAppUITests;
+			productName = ATPTennisAppUITests;
+			productReference = 01D837BC1E7BB7B30009108E /* ATPTennisAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01D837921E7BB7B20009108E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = QuangMinh;
+				TargetAttributes = {
+					01D837991E7BB7B30009108E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MGV259FTE4;
+						ProvisioningStyle = Automatic;
+					};
+					01D837B01E7BB7B30009108E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MGV259FTE4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01D837991E7BB7B30009108E;
+					};
+					01D837BB1E7BB7B30009108E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = MGV259FTE4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 01D837991E7BB7B30009108E;
+					};
+				};
+			};
+			buildConfigurationList = 01D837951E7BB7B20009108E /* Build configuration list for PBXProject "ATPTennisApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 01D837911E7BB7B20009108E;
+			productRefGroup = 01D8379B1E7BB7B30009108E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01D837991E7BB7B30009108E /* ATPTennisApp */,
+				01D837B01E7BB7B30009108E /* ATPTennisAppTests */,
+				01D837BB1E7BB7B30009108E /* ATPTennisAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01D837981E7BB7B30009108E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				014301621ECB03CE005ED684 /* BackhandSearchVC.xib in Resources */,
+				0143016E1ECB0A58005ED684 /* SliceSearchVC.xib in Resources */,
+				014850281EBF1C6B00A64DDB /* CustomTechCell.xib in Resources */,
+				012C74C11EBF582900581B4F /* ServeVC.xib in Resources */,
+				012C74C91EBF587F00581B4F /* ReturnVC.xib in Resources */,
+				01168CD21E8026B8007B5A91 /* RankingVC.xib in Resources */,
+				0118E3DC1EC746F100DD4DD6 /* LiveVC.xib in Resources */,
+				01DAB5341E7BE2510002C5B9 /* TourVC.xib in Resources */,
+				01D837AB1E7BB7B30009108E /* LaunchScreen.storyboard in Resources */,
+				012C74B91EBF580100581B4F /* BackhandVC.xib in Resources */,
+				01AC4C4A1EC4635700E80B9D /* SliceDetailVC.xib in Resources */,
+				014301761ECB30A0005ED684 /* PlayerDetailVC.xib in Resources */,
+				01168CCD1E802697007B5A91 /* PhotoVC.xib in Resources */,
+				01AC4C521EC4669A00E80B9D /* ForehandDetailVC.xib in Resources */,
+				012C74D21EBF655800581B4F /* BackhandDetailVC.xib in Resources */,
+				01F1D4131E7FE8C800F82BCE /* CustomHeaderNewsCell.xib in Resources */,
+				01E0C15D1E7C2BF600105111 /* CustomNewsCell.xib in Resources */,
+				014850311EBF273500A64DDB /* TechniqueVC.xib in Resources */,
+				01DAB53C1E7BE28A0002C5B9 /* H2HVC.xib in Resources */,
+				01DAB5241E7BE16E0002C5B9 /* NewsVC.xib in Resources */,
+				014301661ECB0A1D005ED684 /* ForehandSearchVC.xib in Resources */,
+				012C74C51EBF586C00581B4F /* SliceVC.xib in Resources */,
+				01168CD71E8026D3007B5A91 /* ShareVC.xib in Resources */,
+				01168CE11E802746007B5A91 /* CustomMoreCell.xib in Resources */,
+				01DAB5381E7BE2710002C5B9 /* PlayersVC.xib in Resources */,
+				01AC4C221EC45CBD00E80B9D /* ForehandVC.xib in Resources */,
+				01D837A81E7BB7B30009108E /* Assets.xcassets in Resources */,
+				014301721ECB0A6F005ED684 /* ReturnSearchVC.xib in Resources */,
+				01D837A31E7BB7B30009108E /* Main.storyboard in Resources */,
+				01DAB5401E7BE2A00002C5B9 /* MoreVC.xib in Resources */,
+				016AC63E1E7BE48A009600C4 /* ReadingNewsVC.xib in Resources */,
+				01AC4C4E1EC4636800E80B9D /* ReturnDetailVC.xib in Resources */,
+				01168CC81E802681007B5A91 /* VideoVC.xib in Resources */,
+				01168CDC1E8026E6007B5A91 /* AboutVC.xib in Resources */,
+				01DAB50C1E7BE10D0002C5B9 /* MainVC.xib in Resources */,
+				0143016A1ECB0A37005ED684 /* ServeSearchVC.xib in Resources */,
+				01AC4C461EC4634400E80B9D /* ServeDetailVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D837AF1E7BB7B30009108E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D837BA1E7BB7B30009108E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C2B44C6BA213AD457629143 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATPTennisApp/Pods-ATPTennisApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3846C1AC02AD535758DC1117 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATPTennisAppUITests/Pods-ATPTennisAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D09AA6EBE473F3132D08134 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATPTennisApp/Pods-ATPTennisApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EBCFCE2410A839167ED2D1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B2E169B213D1F7F30344FB7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B67C150B4A05903A157F7DD2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATPTennisAppTests/Pods-ATPTennisAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB0C099062BA353370E9BB64 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATPTennisAppUITests/Pods-ATPTennisAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E858A894DA509E10884DE98B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ATPTennisAppTests/Pods-ATPTennisAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A9E7124847DF359FF56A03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D837961E7BB7B30009108E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AC4C281EC45D0E00E80B9D /* ForehandService.swift in Sources */,
+				01CDF4181E7BF0F000C35453 /* NewsService.swift in Sources */,
+				01168CDB1E8026E6007B5A91 /* AboutVC.swift in Sources */,
+				01168CCC1E802697007B5A91 /* PhotoVC.swift in Sources */,
+				01E0C1541E7C1EE800105111 /* NewsModelList.swift in Sources */,
+				01DAB5331E7BE2510002C5B9 /* TourVC.swift in Sources */,
+				0143017A1ECB3307005ED684 /* PlayersModelList.swift in Sources */,
+				01CDF4151E7BF03F00C35453 /* Utils.swift in Sources */,
+				012C74C81EBF587F00581B4F /* ReturnVC.swift in Sources */,
+				01168CD11E8026B8007B5A91 /* RankingVC.swift in Sources */,
+				01AC4C361EC45F5C00E80B9D /* ServeModel.swift in Sources */,
+				01F1D4121E7FE8C800F82BCE /* CustomHeaderNewsCell.swift in Sources */,
+				0118E3DB1EC746F100DD4DD6 /* LiveVC.swift in Sources */,
+				01E0C1561E7C1F2000105111 /* APIConfigure.swift in Sources */,
+				01DE6F171E8122E3000A43F3 /* SocialHelper.swift in Sources */,
+				014850301EBF273500A64DDB /* TechniqueVC.swift in Sources */,
+				01AC4C301EC45EFE00E80B9D /* ReturnModelList.swift in Sources */,
+				014301751ECB30A0005ED684 /* PlayerDetailVC.swift in Sources */,
+				01AC4C3E1EC460AB00E80B9D /* ReturnService.swift in Sources */,
+				01AC4C211EC45CBD00E80B9D /* ForehandVC.swift in Sources */,
+				01AC4C381EC45F9500E80B9D /* ServeModelList.swift in Sources */,
+				01AC4C4D1EC4636800E80B9D /* ReturnDetailVC.swift in Sources */,
+				01AC4C401EC460B700E80B9D /* ServeService.swift in Sources */,
+				01DAB53B1E7BE28A0002C5B9 /* H2HVC.swift in Sources */,
+				0148501B1EBF124A00A64DDB /* BackhandModel.swift in Sources */,
+				014301781ECB32F9005ED684 /* PlayersModel.swift in Sources */,
+				01D837E31E7BBE940009108E /* AppDelegate.swift in Sources */,
+				01AC4C451EC4634400E80B9D /* ServeDetailVC.swift in Sources */,
+				014850271EBF1C6B00A64DDB /* CustomTechCell.swift in Sources */,
+				012C74D11EBF655800581B4F /* BackhandDetailVC.swift in Sources */,
+				01168CE01E802746007B5A91 /* CustomMoreCell.swift in Sources */,
+				012C74B81EBF580100581B4F /* BackhandVC.swift in Sources */,
+				01AC4C421EC460CA00E80B9D /* SliceService.swift in Sources */,
+				01AC4C491EC4635700E80B9D /* SliceDetailVC.swift in Sources */,
+				01DAB50B1E7BE10D0002C5B9 /* MainVC.swift in Sources */,
+				012C74C01EBF582900581B4F /* ServeVC.swift in Sources */,
+				01CDF41B1E7BF12E00C35453 /* BaseService.swift in Sources */,
+				01DAB53F1E7BE2A00002C5B9 /* MoreVC.swift in Sources */,
+				01AC4C2E1EC45EE400E80B9D /* ReturnModel.swift in Sources */,
+				01DAB5371E7BE2710002C5B9 /* PlayersVC.swift in Sources */,
+				01AC4C2C1EC45D7800E80B9D /* ForehandModelList.swift in Sources */,
+				016AC63D1E7BE48A009600C4 /* ReadingNewsVC.swift in Sources */,
+				012C74C41EBF586C00581B4F /* SliceVC.swift in Sources */,
+				01AC4C511EC4669A00E80B9D /* ForehandDetailVC.swift in Sources */,
+				01E0C14E1E7C1D1000105111 /* NewsModel.swift in Sources */,
+				01D837A61E7BB7B30009108E /* ATPTennisApp.xcdatamodeld in Sources */,
+				0143016D1ECB0A58005ED684 /* SliceSearchVC.swift in Sources */,
+				01D837A01E7BB7B30009108E /* ViewController.swift in Sources */,
+				01DAB5231E7BE16E0002C5B9 /* NewsVC.swift in Sources */,
+				01E0C15C1E7C2BF600105111 /* CustomNewsCell.swift in Sources */,
+				014850241EBF19F800A64DDB /* BackhandService.swift in Sources */,
+				014301651ECB0A1D005ED684 /* ForehandSearchVC.swift in Sources */,
+				01168CD61E8026D3007B5A91 /* ShareVC.swift in Sources */,
+				01AC4C341EC45F2D00E80B9D /* SliceModel.swift in Sources */,
+				01168CC71E802681007B5A91 /* VideoVC.swift in Sources */,
+				01CDF4131E7BEF8000C35453 /* CustomNavibar.swift in Sources */,
+				01AC4C321EC45F0F00E80B9D /* SliceModelList.swift in Sources */,
+				0143017F1ECB383B005ED684 /* PlayersService.swift in Sources */,
+				014301611ECB03CE005ED684 /* BackhandSearchVC.swift in Sources */,
+				014301711ECB0A6F005ED684 /* ReturnSearchVC.swift in Sources */,
+				0148501D1EBF125D00A64DDB /* BackhandModelList.swift in Sources */,
+				01AC4C2A1EC45D6500E80B9D /* ForehandModel.swift in Sources */,
+				014301691ECB0A37005ED684 /* ServeSearchVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D837AD1E7BB7B30009108E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D837B61E7BB7B30009108E /* ATPTennisAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01D837B81E7BB7B30009108E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D837C11E7BB7B30009108E /* ATPTennisAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01D837B31E7BB7B30009108E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01D837991E7BB7B30009108E /* ATPTennisApp */;
+			targetProxy = 01D837B21E7BB7B30009108E /* PBXContainerItemProxy */;
+		};
+		01D837BE1E7BB7B30009108E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01D837991E7BB7B30009108E /* ATPTennisApp */;
+			targetProxy = 01D837BD1E7BB7B30009108E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01D837A11E7BB7B30009108E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D837A21E7BB7B30009108E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01D837A91E7BB7B30009108E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01D837AA1E7BB7B30009108E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01D837C31E7BB7B30009108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01D837C41E7BB7B30009108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01D837C61E7BB7B30009108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B206F8351DF88EDF7BDEAE /* Pods-ATPTennisApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MGV259FTE4;
+				INFOPLIST_FILE = ATPTennisApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QMG.ATPTennisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		01D837C71E7BB7B30009108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0328729FB7C2C1AD33CA25E1 /* Pods-ATPTennisApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MGV259FTE4;
+				INFOPLIST_FILE = ATPTennisApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QMG.ATPTennisApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		01D837C91E7BB7B30009108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18278B245A6EBD0FE677ABE6 /* Pods-ATPTennisAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MGV259FTE4;
+				INFOPLIST_FILE = ATPTennisAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QMG.ATPTennisAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATPTennisApp.app/ATPTennisApp";
+			};
+			name = Debug;
+		};
+		01D837CA1E7BB7B30009108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E89F895395171FD65DE4FC2A /* Pods-ATPTennisAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = MGV259FTE4;
+				INFOPLIST_FILE = ATPTennisAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QMG.ATPTennisAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATPTennisApp.app/ATPTennisApp";
+			};
+			name = Release;
+		};
+		01D837CC1E7BB7B30009108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCD9D29D7DAE7A0058B0F1E8 /* Pods-ATPTennisAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MGV259FTE4;
+				INFOPLIST_FILE = ATPTennisAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QMG.ATPTennisAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ATPTennisApp;
+			};
+			name = Debug;
+		};
+		01D837CD1E7BB7B30009108E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FDEAA35CB2071A1651619E8 /* Pods-ATPTennisAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = MGV259FTE4;
+				INFOPLIST_FILE = ATPTennisAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QMG.ATPTennisAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ATPTennisApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01D837951E7BB7B20009108E /* Build configuration list for PBXProject "ATPTennisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D837C31E7BB7B30009108E /* Debug */,
+				01D837C41E7BB7B30009108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D837C51E7BB7B30009108E /* Build configuration list for PBXNativeTarget "ATPTennisApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D837C61E7BB7B30009108E /* Debug */,
+				01D837C71E7BB7B30009108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D837C81E7BB7B30009108E /* Build configuration list for PBXNativeTarget "ATPTennisAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D837C91E7BB7B30009108E /* Debug */,
+				01D837CA1E7BB7B30009108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01D837CB1E7BB7B30009108E /* Build configuration list for PBXNativeTarget "ATPTennisAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01D837CC1E7BB7B30009108E /* Debug */,
+				01D837CD1E7BB7B30009108E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01D837A41E7BB7B30009108E /* ATPTennisApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01D837A51E7BB7B30009108E /* ATPTennisApp.xcdatamodel */,
+			);
+			currentVersion = 01D837A51E7BB7B30009108E /* ATPTennisApp.xcdatamodel */;
+			path = ATPTennisApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01D837921E7BB7B20009108E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ATPTennisAppUITests {
+  umbrella header "Pods-ATPTennisAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
